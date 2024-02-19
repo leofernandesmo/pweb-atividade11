@@ -19,6 +19,9 @@ const users = [
 ];
 
 
+app.get('/', (req, res) => {
+    res.render('login');
+});
 
 // GET request for the login page
 app.get('/login', (req, res) => {
